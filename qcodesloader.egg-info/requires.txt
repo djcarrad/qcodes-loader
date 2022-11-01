@@ -1,7 +1,4 @@
 numpy>=1.10
 h5py>=2.6
-websockets>=3.2
+jupyter
 jsonschema
-pyzmq
-wrapt
-pandas
