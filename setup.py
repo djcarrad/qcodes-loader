@@ -31,7 +31,7 @@ setup(name='qcodesloader',
 
       maintainer='Damon Carrad',
       maintainer_email='damonc@dtu.dk',
-      description='Load data generated with qcodes<0.11.1 or qcodes-elab',
+      description='Load data generated with qcodes=<0.1.11 or qcodes-elab',
       long_description=readme(),
       url='https://github.com/djcarrad/qcodes-loader',
       classifiers=[
