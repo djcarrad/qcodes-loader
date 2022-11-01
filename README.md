@@ -15,3 +15,11 @@ data=qcl.load_data('*path_to_dataset*')
 data1=qcl.load_data_num('XXX',datafolder='data') --- where XXX is the counter number
 
 data2=qcl.load_data_nums(['XXX','YYY','ZZZ'],datafolder='data') --- for multiple data sets
+
+# Converting/exporting to three-column data for InspectraGadget
+
+qcl.IGconvert(listofnumbers,z_param='conductance',x_param='default',y_param='default',datafolder='data',exportfolder="inspectragadget")
+
+qcl.IGexport(data,z_param='conductance',x_param='default',y_param='default',exportfolder="inspectragadget")
+
+For more information see https://github.com/djcarrad/qcodes-elab/wiki/Useful-features
