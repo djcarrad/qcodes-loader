@@ -6,3 +6,12 @@ Requires less space/dependencies compared to a full qcodes installation
 To install, clone respository to desired directory, and install with
 
 pip install -e *path_to_repository*
+
+# Loading data
+import qcodesloader as qcl
+
+data=qcl.load_data('*path_to_dataset*')
+
+data1=qcl.load_data_num('XXX',datafolder='data') --- where XXX is the counter number
+
+data2=qcl.load_data_nums(['XXX','YYY','ZZZ'],datafolder='data') --- for multiple data sets
