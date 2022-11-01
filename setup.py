@@ -8,7 +8,7 @@ def get_version(verbose=1):
     """ Extract version information from source code """
 
     try:
-        with open('qcodes/version.py', 'r') as f:
+        with open('version.py', 'r') as f:
             ln = f.readline()
             # print(ln)
             m = re.search('.* ''(.*)''', ln)
