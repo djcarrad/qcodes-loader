@@ -12,7 +12,7 @@ from typing import Dict, Callable
 from .gnuplot_format import GNUPlotFormat
 from .io import DiskIO
 from .location import FormatLocation
-from qcodes.utils.helpers import DelegateAttributes, full_class, deep_update
+from .helpers import DelegateAttributes, full_class, deep_update
 
 from uuid import uuid4
 log = logging.getLogger(__name__)
