@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+qcodesloader/__init__.py
+qcodesloader/data_set.py
+qcodesloader/gnuplot_format.py
+qcodesloader/helpers.py
+qcodesloader/io_manager.py
+qcodesloader/location.py
+qcodesloader.egg-info/PKG-INFO
+qcodesloader.egg-info/SOURCES.txt
+qcodesloader.egg-info/dependency_links.txt
+qcodesloader.egg-info/not-zip-safe
+qcodesloader.egg-info/requires.txt
+qcodesloader.egg-info/top_level.txt

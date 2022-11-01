@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+qcodes_loader.egg-info/PKG-INFO
+qcodes_loader.egg-info/SOURCES.txt
+qcodes_loader.egg-info/dependency_links.txt
+qcodes_loader.egg-info/not-zip-safe
+qcodes_loader.egg-info/requires.txt
+qcodes_loader.egg-info/top_level.txt

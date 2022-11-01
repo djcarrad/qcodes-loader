@@ -22,16 +22,16 @@ def get_version(verbose=1):
 
 
 def readme():
-    with open('README.rst') as f:
+    with open('README.md') as f:
         return f.read()
 
-setup(name='qcodes-loader',
+setup(name='qcodesloader',
       version=get_version(),
       use_2to3=False,
 
       maintainer='Damon Carrad',
       maintainer_email='damonc@dtu.dk',
-      description='Loader for data generated with qcodes<0.11.1 or qcodes-elab',
+      description='Load data generated with qcodes<0.11.1 or qcodes-elab',
       long_description=readme(),
       url='https://github.com/djcarrad/qcodes-loader',
       classifiers=[
